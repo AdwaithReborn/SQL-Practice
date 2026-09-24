@@ -10,3 +10,9 @@ id	   title	       director	        year	      length_minutes
 7	    Cars	        John Lasseter	    2006	        117
 12	  Cars 2	      John Lasseter	    2011	        120
 
+SELECT * FROM movies WHERE Title LIKE "%WALL%"
+
+id	title	director	year	length_minutes
+9	WALL-E	Andrew Stanton	2008	104
+87	WALL-G	Brenda Chapman	2042
+
